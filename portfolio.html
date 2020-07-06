@@ -7,18 +7,18 @@
     <link rel="stylesheet" href="./css/styles.css"/>
   </head>
   <body>
-    <header>
-      <nav>
-        <a href=""> <img src="./images/logo.svg" alt="Логотип" /> </a>
-        <ul>
-          <li><a class="navigation-list-link link-active" href="./index.html">Студия</a></li>
-          <li><a class="navigation-list-link link-active" href="./portfolio.html">Портфолио</a></li>
-          <li><a class="navigation-list-link link-active" href="">Контакты</a></li>
+    <header class="header">
+      <nav class = "navigation">
+        <a class="logo" href=""> <img src="./images/logo.svg" alt="Логотип" /> </a>
+        <ul class="site-nav">
+          <li class="navigation-list-item"><a class="navigation-list-link link-active" href="./index.html">Студия</a></li>
+          <li class="navigation-list-item"><a class="navigation-list-link link-active" href="./portfolio.html">Портфолио</a></li>
+          <li class="navigation-list-item"><a class="navigation-list-link link-active" href="">Контакты</a></li>
         </ul>
       </nav>
-       <ul>
-          <li><a href="mail.tu">info@devstudio.com</a></li>
-          <li><a href="tel">+38 096 111 11 11</a></li>
+       <ul class="contacts-nav">
+          <li class="adress-list-item><a class="adress-list-item" href="mail.tu">info@devstudio.com</a></li>
+          <li class="adress-list-item><a class="tel-link-item" href="tel">+38 096 111 11 11</a></li>
         </ul>
       </header>
     <main>
@@ -33,33 +33,34 @@
     </ul></section>
     <h2 hidden>Примеры работ</h2>
     <section>
-        <ul>
-        <li> <a href=""> <img src="./images/Примеры-работ/1.img" alt="photo" width="370" height="294"></a>
-        <h3>Технокряк</h3> <p>Веб-сайт</p> 
-        <p hidden>Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p></li>
-        <li> <a href=""> <img src="./images/Примеры-работ/2.img" alt="photo" width="370" height="294" /></a> <h3>Постер New Orlean vs Golden Star</h3> <p>Дизайн</p> </li>
-        <li> <a href=""> <img src="./images/Примеры-работ/3.img" alt="photo" width="370" height="294" /></a> <h3>Ресторан Seafood</h3> <p>Приложение</p> </li>
-        <li> <a href=""> <img src="./images/Примеры-работ/4.img" alt="photo" width="370" height="294" /></a> <h3>Проект Prime</h3> <p>Маркетинг</p> </li>
-        <li> <a href=""> <img src="./images/Примеры-работ/5.img" alt="photo" width="370" height="294" /></a> <h3>Проект Boxes</h3> <p>Приложение</p> </li>
-        <li> <a href=""> <img src="./images/Примеры-работ/6.img" alt="photo" width="370" height="294" /></a> <h3>Inspiration has no Borders</h3> <p>Веб-сайт</p> </li>
-        <li> <a href=""> <img src="./images/Примеры-работ/7.img" alt="photo" width="370" height="294" /></a> <h3>Издание Limited Edition</h3> <p>Дизайн</p> </li>
-        <li> <a href=""> <img src="./images/Примеры-работ/8.img" alt="photo" width="370" height="294" /></a> <h3>Проект LAB</h3> <p>Маркетинг</p> </li>
-        <li> <a href=""> <img src="./images/Примеры-работ/9.img" alt="photo" width="370" height="294" /></a> <h3>Growing Business</h3> <p>Приложение</p> </li>
+        <ul class="portfolio-list>
+        <li class="portfolio-list-item"> <a href=""> <img class="portfolio-list-img" src="./images/Примеры-работ/1.img" alt="photo" width="370" height="294"></a>
+        <h3 class="portfolio-list-header">Технокряк</h3> <p class="portfolio-list-project-type">Веб-сайт</p> 
+        <p class="portfolio-list-text-hover"hidden>Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p></li>
+        <li> <a href=""> <img src="./images/Примеры-работ/2.img" alt="photo" width="370" height="294" /></a> <h3 class="portfolio-list-header">Постер New Orlean vs Golden Star</h3> <p class="portfolio-list-project-type">Дизайн</p> </li>
+        <li> <a href=""> <img src="./images/Примеры-работ/3.img" alt="photo" width="370" height="294" /></a> <h3 class="portfolio-list-header">Ресторан Seafood</h3> <p class="portfolio-list-project-type">Приложение</p> </li>
+        <li> <a href=""> <img src="./images/Примеры-работ/4.img" alt="photo" width="370" height="294" /></a> <h3 class="portfolio-list-header">Проект Prime</h3> <p class="portfolio-list-project-type">Маркетинг</p> </li>
+        <li> <a href=""> <img src="./images/Примеры-работ/5.img" alt="photo" width="370" height="294" /></a> <h3 class="portfolio-list-header">Проект Boxes</h3> <p class="portfolio-list-project-type">Приложение</p> </li>
+        <li> <a href=""> <img src="./images/Примеры-работ/6.img" alt="photo" width="370" height="294" /></a> <h3 class="portfolio-list-header">Inspiration has no Borders</h3> <p class="portfolio-list-project-type">Веб-сайт</p> </li>
+        <li> <a href=""> <img src="./images/Примеры-работ/7.img" alt="photo" width="370" height="294" /></a> <h3 class="portfolio-list-header">Издание Limited Edition</h3> <p class="portfolio-list-project-type">Дизайн</p> </li>
+        <li> <a href=""> <img src="./images/Примеры-работ/8.img" alt="photo" width="370" height="294" /></a> <h3 class="portfolio-list-header">Проект LAB</h3> <p class="portfolio-list-project-type">Маркетинг</p> </li>
+        <li> <a href=""> <img src="./images/Примеры-работ/9.img" alt="photo" width="370" height="294" /></a> <h3 class="portfolio-list-header">Growing Business</h3> <p class="portfolio-list-project-type">Приложение</p> </li>
     </ul></section></main>
     <footer><address>
-        <a href=""><img src="./images/logo.svg" alt="Логотип" /></a>
-        <ul>
-        <li>г.Киев, пр-т Леси Украинки,26 </li>
-        <li><a href="">info@example.com</a></li>
-        <li><a href="">+38 099 111 11 11</a></li>
+        <a class="logo" href=""><img src="./images/logo.svg" alt="Логотип" /></a>
+        <ul class="footer-adress-list">
+        <li class="footer-adress-item"><a class="footer-adress-link"
+        href="https://goo.gl/maps/bMKYZDrt7HzqNCvu6" target="_blank">г.Киев, пр-т Леси Украинки,26 </li>
+        <li class="footer-adress-item"><a class="footer-email-link" href="">info@example.com</a></li>
+        <li class="footer-adress-item"><a class="footer-tel-link" href="">+38 099 111 11 11</a></li>
         </ul>
         </address>
           <h3>присоединяйтесь</h3>
-      <ul>
-      <li><a href="" aria-label="Ссылка на Facebook">Facebook</a></li>
-      <li><a href="" aria-label="Ссылка на Twitter">Twitter</a></li>
-      <li><a href="" aria-label="Ссылка на Instagram">Instagram</a></li>
-      <li><a href="" aria-label="Ссылка на Linkedln">Linkedln</a></li>
+      <ul class="social-links">
+      <li><a class="social-links-item-link" href="" aria-label="Ссылка на Facebook">Facebook</a></li>
+      <li><a class="social-links-item-link" href="" aria-label="Ссылка на Twitter">Twitter</a></li>
+      <li><a class="social-links-item-link" href="" aria-label="Ссылка на Instagram">Instagram</a></li>
+      <li><a class="social-links-item-link" href="" aria-label="Ссылка на Linkedln">Linkedln</a></li>
       </ul>
       </footer>
       </body>
