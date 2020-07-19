@@ -1,4 +1,4 @@
-.root{
+:root{
     primary-text-color:#757575;
     primary-title-color:#212121;
     accent-color:#2196f3;
@@ -9,7 +9,7 @@
     portfolio-butto-color: #f5f4fa;
     footer-links-color:rgba(255, 255, 255, 0.6);
   }
-.body{
+body{
     font-family: Roboto;
     font-weight: 400;
     font-size: 14px;
@@ -181,4 +181,15 @@
     font-size: 16px;
     line-height: 1.87;
   }
-
+  .justify-content {
+    space-around;
+  }
+  .clients-list-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 90px;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+}
